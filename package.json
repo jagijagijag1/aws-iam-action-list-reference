@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "headless-chrome-crawler": "^1.8.0",
+    "js-levenshtein": "^1.1.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "name": "aws-iam-action-list-reference",
+  "version": "1.0.0",
+  "description": "List of AWS actions used in IAM policies with \"Access Level\" information",
+  "main": "index.js",
+  "repository": "git@github.com:jagijagijag1/aws-iam-action-list-reference.git",
+  "author": "jagijagijag1 <29348109+jagijagijag1@users.noreply.github.com>",
+  "license": "MIT"
+}
