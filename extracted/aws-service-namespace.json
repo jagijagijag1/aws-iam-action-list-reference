@@ -1,0 +1,600 @@
+{
+  "result": [
+    {
+      "Service": "Alexa for Business",
+      "NameSpace": "a4b"
+    },
+    {
+      "Service": "API Gateway",
+      "NameSpace": "apigateway"
+    },
+    {
+      "Service": "Application Auto Scaling",
+      "NameSpace": "application-autoscaling"
+    },
+    {
+      "Service": "AWS Application Discovery Service",
+      "NameSpace": "discovery"
+    },
+    {
+      "Service": "Amazon AppStream",
+      "NameSpace": "appstream"
+    },
+    {
+      "Service": "AWS AppSync",
+      "NameSpace": "appsync"
+    },
+    {
+      "Service": "AWS Artifact",
+      "NameSpace": "artifact"
+    },
+    {
+      "Service": "Amazon Athena",
+      "NameSpace": "athena"
+    },
+    {
+      "Service": "Auto Scaling Plans",
+      "NameSpace": "autoscaling-plans"
+    },
+    {
+      "Service": "AWS Batch",
+      "NameSpace": "batch"
+    },
+    {
+      "Service": "AWS Billing and Cost Management",
+      "NameSpace": "aws-portal"
+    },
+    {
+      "Service": "AWS Budgets",
+      "NameSpace": "budgets"
+    },
+    {
+      "Service": "AWS Certificate Manager (ACM)",
+      "NameSpace": "acm"
+    },
+    {
+      "Service": "AWS Certificate Manager Private Certificate Authority",
+      "NameSpace": "acm-pca"
+    },
+    {
+      "Service": "Amazon Chime",
+      "NameSpace": "chime"
+    },
+    {
+      "Service": "AWS Cloud9",
+      "NameSpace": "cloud9"
+    },
+    {
+      "Service": "Amazon Cloud Directory",
+      "NameSpace": "clouddirectory"
+    },
+    {
+      "Service": "AWS CloudFormation",
+      "NameSpace": "cloudformation"
+    },
+    {
+      "Service": "Amazon CloudFront",
+      "NameSpace": "cloudfront"
+    },
+    {
+      "Service": "AWS CloudHSM",
+      "NameSpace": "cloudhsm"
+    },
+    {
+      "Service": "AWS Cloud Map",
+      "NameSpace": "servicediscovery"
+    },
+    {
+      "Service": "Amazon CloudSearch",
+      "NameSpace": "cloudsearch"
+    },
+    {
+      "Service": "AWS CloudTrail",
+      "NameSpace": "cloudtrail"
+    },
+    {
+      "Service": "Amazon CloudWatch",
+      "NameSpace": "cloudwatch"
+    },
+    {
+      "Service": "Amazon CloudWatch Events",
+      "NameSpace": "events"
+    },
+    {
+      "Service": "Amazon CloudWatch Logs",
+      "NameSpace": "logs"
+    },
+    {
+      "Service": "CodeBuild",
+      "NameSpace": "codebuild"
+    },
+    {
+      "Service": "AWS CodeCommit",
+      "NameSpace": "codecommit"
+    },
+    {
+      "Service": "AWS CodeDeploy",
+      "NameSpace": "codedeploy"
+    },
+    {
+      "Service": "AWS CodePipeline",
+      "NameSpace": "codepipeline"
+    },
+    {
+      "Service": "AWS Code Signing for Amazon FreeRTOS",
+      "NameSpace": "signer"
+    },
+    {
+      "Service": "AWS CodeStar",
+      "NameSpace": "codestar"
+    },
+    {
+      "Service": "Amazon Cognito Your User Pools",
+      "NameSpace": "cognito-idp"
+    },
+    {
+      "Service": "Amazon Cognito Federated Identities",
+      "NameSpace": "cognito-identity"
+    },
+    {
+      "Service": "Amazon Cognito Sync",
+      "NameSpace": "cognito-sync"
+    },
+    {
+      "Service": "Amazon Comprehend",
+      "NameSpace": "comprehend"
+    },
+    {
+      "Service": "AWS Config",
+      "NameSpace": "config"
+    },
+    {
+      "Service": "Amazon Connect",
+      "NameSpace": "connect"
+    },
+    {
+      "Service": "AWS Cost and Usage Report",
+      "NameSpace": "cur"
+    },
+    {
+      "Service": "AWS Cost Explorer Service",
+      "NameSpace": "ce"
+    },
+    {
+      "Service": "AWS Data Pipeline",
+      "NameSpace": "datapipeline"
+    },
+    {
+      "Service": "AWS Database Migration Service (AWS DMS)",
+      "NameSpace": "dms"
+    },
+    {
+      "Service": "AWS Device Farm",
+      "NameSpace": "devicefarm"
+    },
+    {
+      "Service": "AWS Direct Connect",
+      "NameSpace": "directconnect"
+    },
+    {
+      "Service": "AWS Directory Service",
+      "NameSpace": "ds"
+    },
+    {
+      "Service": "Amazon DynamoDB",
+      "NameSpace": "dynamodb"
+    },
+    {
+      "Service": "Amazon DynamoDB Accelerator (DAX)",
+      "NameSpace": "dax"
+    },
+    {
+      "Service": "Amazon EC2 Auto Scaling",
+      "NameSpace": "autoscaling"
+    },
+    {
+      "Service": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "NameSpace": "ec2"
+    },
+    {
+      "Service": "Amazon Elastic Container Registry (Amazon ECR)",
+      "NameSpace": "ecr"
+    },
+    {
+      "Service": "Amazon Elastic Container Service (Amazon ECS)",
+      "NameSpace": "ecs"
+    },
+    {
+      "Service": "Amazon Elastic Container Service for Kubernetes (Amazon EKS)",
+      "NameSpace": "eks"
+    },
+    {
+      "Service": "AWS Elastic Beanstalk",
+      "NameSpace": "elasticbeanstalk"
+    },
+    {
+      "Service": "Amazon Elastic File System (Amazon EFS)",
+      "NameSpace": "elasticfilesystem"
+    },
+    {
+      "Service": "Elastic Load Balancing",
+      "NameSpace": "elasticloadbalancing"
+    },
+    {
+      "Service": "Amazon EMR",
+      "NameSpace": "elasticmapreduce"
+    },
+    {
+      "Service": "Amazon Elastic Transcoder",
+      "NameSpace": "elastictranscoder"
+    },
+    {
+      "Service": "Amazon ElastiCache",
+      "NameSpace": "elasticache"
+    },
+    {
+      "Service": "Amazon Elasticsearch Service (Amazon ES)",
+      "NameSpace": "es"
+    },
+    {
+      "Service": "AWS Firewall Manager",
+      "NameSpace": "fms"
+    },
+    {
+      "Service": "Amazon FreeRTOS",
+      "NameSpace": "freertos"
+    },
+    {
+      "Service": "Amazon GameLift",
+      "NameSpace": "gamelift"
+    },
+    {
+      "Service": "Amazon S3 Glacier",
+      "NameSpace": "glacier"
+    },
+    {
+      "Service": "AWS Global Accelerator",
+      "NameSpace": "globalaccelerator"
+    },
+    {
+      "Service": "AWS Glue",
+      "NameSpace": "glue"
+    },
+    {
+      "Service": "AWS IoT Greengrass",
+      "NameSpace": "greengrass"
+    },
+    {
+      "Service": "Amazon GuardDuty",
+      "NameSpace": "guardduty"
+    },
+    {
+      "Service": "AWS Health / Personal Health Dashboard",
+      "NameSpace": "health"
+    },
+    {
+      "Service": "AWS Identity and Access Management (IAM)",
+      "NameSpace": "iam"
+    },
+    {
+      "Service": "AWS Import/Export",
+      "NameSpace": "importexport"
+    },
+    {
+      "Service": "Amazon Inspector",
+      "NameSpace": "inspector"
+    },
+    {
+      "Service": "AWS IoT",
+      "NameSpace": "iot"
+    },
+    {
+      "Service": "AWS IoT Analytics",
+      "NameSpace": "iotanalytics"
+    },
+    {
+      "Service": "AWS IoT 1-Click",
+      "NameSpace": "iot1click"
+    },
+    {
+      "Service": "AWS Key Management Service (AWS KMS)",
+      "NameSpace": "kms"
+    },
+    {
+      "Service": "Amazon Kinesis Data Analytics",
+      "NameSpace": "kinesisanalytics"
+    },
+    {
+      "Service": "Amazon Kinesis Data Firehose",
+      "NameSpace": "firehose"
+    },
+    {
+      "Service": "Amazon Kinesis Data Streams",
+      "NameSpace": "kinesis"
+    },
+    {
+      "Service": "Amazon Kinesis Video Streams",
+      "NameSpace": "kinesisvideo"
+    },
+    {
+      "Service": "AWS Lambda",
+      "NameSpace": "lambda"
+    },
+    {
+      "Service": "Amazon Lex",
+      "NameSpace": "lex"
+    },
+    {
+      "Service": "Amazon Lightsail",
+      "NameSpace": "lightsail"
+    },
+    {
+      "Service": "Amazon Macie",
+      "NameSpace": "macie"
+    },
+    {
+      "Service": "Amazon Machine Learning",
+      "NameSpace": "machinelearning"
+    },
+    {
+      "Service": "AWS Marketplace",
+      "NameSpace": "aws-marketplace"
+    },
+    {
+      "Service": "AWS Marketplace Management Portal",
+      "NameSpace": "aws-marketplace-management"
+    },
+    {
+      "Service": "Amazon Mechanical Turk",
+      "NameSpace": "mechanicalturk"
+    },
+    {
+      "Service": "Amazon Mechanical Turk Crowd",
+      "NameSpace": "crowd"
+    },
+    {
+      "Service": "AWS Elemental MediaConnect",
+      "NameSpace": "mediaconnect"
+    },
+    {
+      "Service": "AWS Elemental MediaConvert",
+      "NameSpace": "mediaconvert"
+    },
+    {
+      "Service": "AWS Elemental MediaLive",
+      "NameSpace": "medialive"
+    },
+    {
+      "Service": "AWS Elemental MediaPackage",
+      "NameSpace": "mediapackage"
+    },
+    {
+      "Service": "AWS Elemental MediaStore",
+      "NameSpace": "mediastore"
+    },
+    {
+      "Service": "AWS Elemental MediaTailor",
+      "NameSpace": "mediatailor"
+    },
+    {
+      "Service": "Amazon Message Delivery Service",
+      "NameSpace": "ec2message"
+    },
+    {
+      "Service": "AWS Migration Hub",
+      "NameSpace": "mgh"
+    },
+    {
+      "Service": "Amazon Mobile Analytics",
+      "NameSpace": "mobileanalytics"
+    },
+    {
+      "Service": "AWS Mobile Hub",
+      "NameSpace": "mobilehub"
+    },
+    {
+      "Service": "Amazon MQ",
+      "NameSpace": "mq"
+    },
+    {
+      "Service": "AWS OpsWorks",
+      "NameSpace": "opsworks"
+    },
+    {
+      "Service": "AWS OpsWorks for Chef Automate or AWS OpsWorks for Puppet Enterprise",
+      "NameSpace": "opsworks-cm"
+    },
+    {
+      "Service": "AWS Organizations",
+      "NameSpace": "organizations"
+    },
+    {
+      "Service": "Amazon Personalize",
+      "NameSpace": "personalize"
+    },
+    {
+      "Service": "Amazon Pinpoint",
+      "NameSpace": "mobiletargeting"
+    },
+    {
+      "Service": "Amazon Polly",
+      "NameSpace": "polly"
+    },
+    {
+      "Service": "AWS Price List",
+      "NameSpace": "pricing"
+    },
+    {
+      "Service": "Amazon QuickSight",
+      "NameSpace": "quicksight"
+    },
+    {
+      "Service": "Amazon Redshift",
+      "NameSpace": "redshift"
+    },
+    {
+      "Service": "Amazon Rekognition",
+      "NameSpace": "rekognition"
+    },
+    {
+      "Service": "Amazon Relational Database Service (Amazon RDS)",
+      "NameSpace": "rds"
+    },
+    {
+      "Service": "AWS Resource Groups",
+      "NameSpace": "resource-groups"
+    },
+    {
+      "Service": "Amazon Resource Group Tagging API",
+      "NameSpace": "tag"
+    },
+    {
+      "Service": "Amazon Route 53",
+      "NameSpace": "route53"
+    },
+    {
+      "Service": "Amazon Route 53 Domains",
+      "NameSpace": "route53domains"
+    },
+    {
+      "Service": "Amazon Route 53 Resolver",
+      "NameSpace": "route53resolver"
+    },
+    {
+      "Service": "Amazon SageMaker",
+      "NameSpace": "sagemaker"
+    },
+    {
+      "Service": "AWS Secrets Manager",
+      "NameSpace": "secretsmanager"
+    },
+    {
+      "Service": "AWS Security Token Service (AWS STS)",
+      "NameSpace": "sts"
+    },
+    {
+      "Service": "AWS Serverless Application Repository",
+      "NameSpace": "serverlessrepo"
+    },
+    {
+      "Service": "AWS Service Catalog",
+      "NameSpace": "servicecatalog"
+    },
+    {
+      "Service": "AWS Shield",
+      "NameSpace": "shield"
+    },
+    {
+      "Service": "AWS Shield Advanced",
+      "NameSpace": "shield"
+    },
+    {
+      "Service": "AWS SFTP",
+      "NameSpace": "transfer"
+    },
+    {
+      "Service": "Amazon Simple Email Service (Amazon SES)",
+      "NameSpace": "ses"
+    },
+    {
+      "Service": "Amazon Simple Notification Service (Amazon SNS)",
+      "NameSpace": "sns"
+    },
+    {
+      "Service": "Amazon Simple Queue Service (Amazon SQS)",
+      "NameSpace": "sqs"
+    },
+    {
+      "Service": "Amazon Simple Storage Service (Amazon S3)",
+      "NameSpace": "s3"
+    },
+    {
+      "Service": "Amazon Simple Workflow Service (Amazon SWF)",
+      "NameSpace": "swf"
+    },
+    {
+      "Service": "Amazon SimpleDB",
+      "NameSpace": "sdb"
+    },
+    {
+      "Service": "AWS Single Sign-On",
+      "NameSpace": "sso"
+    },
+    {
+      "Service": "AWS Snowball",
+      "NameSpace": "snowball"
+    },
+    {
+      "Service": "AWS Step Functions",
+      "NameSpace": "states"
+    },
+    {
+      "Service": "AWS Storage Gateway",
+      "NameSpace": "storagegateway"
+    },
+    {
+      "Service": "Amazon Sumerian",
+      "NameSpace": "sumerian"
+    },
+    {
+      "Service": "AWS Support",
+      "NameSpace": "support"
+    },
+    {
+      "Service": "AWS Systems Manager",
+      "NameSpace": "ssm"
+    },
+    {
+      "Service": "Amazon Textract",
+      "NameSpace": "textract"
+    },
+    {
+      "Service": "Amazon Transcribe",
+      "NameSpace": "transcribe"
+    },
+    {
+      "Service": "Amazon Translate",
+      "NameSpace": "translate"
+    },
+    {
+      "Service": "AWS Trusted Advisor",
+      "NameSpace": "trustedadvisor"
+    },
+    {
+      "Service": "Amazon Virtual Private Cloud (Amazon VPC)",
+      "NameSpace": "ec2"
+    },
+    {
+      "Service": "AWS WAF",
+      "NameSpace": "waf"
+    },
+    {
+      "Service": "AWS WAF Regional",
+      "NameSpace": "waf-regional"
+    },
+    {
+      "Service": "Amazon WorkDocs",
+      "NameSpace": "workdocs"
+    },
+    {
+      "Service": "Amazon WorkLink",
+      "NameSpace": "worklink"
+    },
+    {
+      "Service": "Amazon WorkMail",
+      "NameSpace": "workmail"
+    },
+    {
+      "Service": "Amazon WorkSpaces",
+      "NameSpace": "workspaces"
+    },
+    {
+      "Service": "Amazon WorkSpaces Application Manager",
+      "NameSpace": "wam"
+    },
+    {
+      "Service": "AWS X-Ray",
+      "NameSpace": "xray"
+    }
+  ]
+}
