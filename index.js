@@ -2,14 +2,14 @@ const HCCrawler = require('headless-chrome-crawler');
 const fs = require('fs');
 const levenshtein = require('js-levenshtein');
 
-const root_url = 'https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_actions-resources-contextkeys.html'
-const out_file = './aws-iam-action-list-reference.json';
+const rootUrl = 'https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_actions-resources-contextkeys.html'
+const outFile = './aws-iam-action-list-reference.json';
 
-const service_namespace = JSON.parse(fs.readFileSync('./aws-service-namespace.json', 'utf8')).result;
+const serviceNamespace = JSON.parse(fs.readFileSync('./aws-service-namespace.json', 'utf8')).result;
 function convertServiceName(original) {
   var min = Number.MAX_VALUE;
   var res = '';
-  service_namespace.forEach(elm => {
+  serviceNamespace.forEach(elm => {
     var tmp = levenshtein(original, elm.Service);
     if (tmp < min) {
       res = elm.NameSpace;
@@ -20,23 +20,23 @@ function convertServiceName(original) {
   return res;
 }
 
-function rewirteServiceName(all_actions) {
+function rewirteServiceName(allActions) {
   //const resultJSON = JSON.parse(fs.readFileSync('./aws-iam-action-list-reference.json', 'utf8')).result;
 
-  all_actions.forEach(elm => {
-    var new_sn = convertServiceName(elm.ServiceName);
-    elm.ServiceName = new_sn;
+  allActions.forEach(elm => {
+    var newSn = convertServiceName(elm.ServiceName);
+    elm.ServiceName = newSn;
 
     elm.AccessLevels.forEach(act => {
       act.Actions.forEach(an => {
-        an.FullActionName = new_sn + '::' + an.ActionName;
+        an.FullActionName = newSn + '::' + an.ActionName;
       });
     });
   });
 
-  console.log(all_actions);
+  console.log(allActions);
 
-  fs.writeFile(out_file, JSON.stringify(all_actions, null, 2), (err) => {
+  fs.writeFile(outFile, JSON.stringify(allActions, null, 2), (err) => {
       if (err) {
           console.error(err);
           return;
@@ -48,12 +48,12 @@ function rewirteServiceName(all_actions) {
 console.log('Crawling Start');
 
 (async () => {
-  var all_actions = [];
+  var allActions = [];
   const crawler = await HCCrawler.launch({
     // filter pages not related to action list
     preRequest:  (options => {
       var re = new RegExp('.*docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/list_.*');
-      if (options.url === root_url) return true;
+      if (options.url === rootUrl) return true;
       else if (!re.test(options.url)) return false;
       else return true;
     }),
@@ -101,7 +101,7 @@ console.log('Crawling Start');
     // Function to be called with evaluated results from browsers
     onSuccess: (result => {
       if (result.result.AccessLevels.length != 0) {
-        all_actions.push(result.result);
+        allActions.push(result.result);
         console.log(JSON.stringify(result.result, null, '  '));
         //console.log(result);
       }
@@ -114,7 +114,7 @@ console.log('Crawling Start');
 
   // Queue a request
   await crawler.queue({
-    url: root_url,
+    url: rootUrl,
     maxDepth: 2
   });
   //await crawler.queue('https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/list_alexaforbusiness.html');
@@ -124,5 +124,5 @@ console.log('Crawling Start');
   console.log('Crawling Done');
 
   console.log('Service Name Rewriting');
-  rewirteServiceName(all_actions)
+  rewirteServiceName(allActions)
 })();
