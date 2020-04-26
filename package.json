@@ -5,6 +5,9 @@
     "js-levenshtein": "^1.1.6",
     "xmlhttprequest": "^1.8.0"
   },
+  "resolutions": {
+    "minimist": "^0.2.1"
+  },
   "name": "aws-iam-action-list-reference",
   "version": "1.0.0",
   "description": "List of AWS actions used in IAM policies with \"Access Level\" information",
